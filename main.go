@@ -5,8 +5,26 @@ import(
     "flag"
     "os"
     "io/ioutil"
-    "github.com/RaidTheWeb/GopherVM/lexer"
+    "strings"
+    "regexp"
 )
+
+func TokenizeExpression(expr string) string {
+    _, REG_TOKEN := regexp.Compile("#[0-9]")
+    
+    s := strings.Split(expr, " ")
+    Token := ""
+    switch s[0] {
+        case "store":
+            if len(s) >= 3 {
+                if REG_TOKEN.Match(s[1]) {
+
+                }
+            }
+
+    }
+    return Token
+}
 
 func usage() {
     fmt.Fprintf(os.Stderr, "usage: myprog [inputfile]\n")
@@ -29,7 +47,5 @@ func main() {
         os.Exit(2)
     }
     fmt.Println(string(data))
-    fmt.Printf("gophervm: \033[34minfo:\033[0m attempting to identify file type of '%s'...\n", args[0])
-    fmt.Println("...")
-    fmt.Println(lexer.TokenizeExpression("help me"))
+    fmt.Println(TokenizeExpression("store #1 \"hi\""))
 }
