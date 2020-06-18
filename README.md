@@ -1,3 +1,3 @@
 # GopherVM
 
-A Simple VM that interprets Gopher Assembly ( GopherASM/GASM )
+A Simple VM that interprets Gopher Assembly ( GopherASM )
