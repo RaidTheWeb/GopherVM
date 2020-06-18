@@ -29,5 +29,6 @@ func main() {
     }
     fmt.Println(string(data))
     fmt.Printf("gophervm: \033[34minfo:\033[0m attempting to identify file type of '%s'...\n", args[0])
+    fmt.Println("...")
     
 }
