@@ -1,1 +1,1 @@
-run = "go build && ./main helloworld.gvm"
+run = "go build && ./main helloworld.gasm"

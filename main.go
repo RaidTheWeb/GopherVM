@@ -5,6 +5,7 @@ import(
     "flag"
     "os"
     "io/ioutil"
+    "github.com/RaidTheWeb/GopherVM/lexer"
 )
 
 func usage() {
