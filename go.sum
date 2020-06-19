@@ -9,3 +9,5 @@ github.com/RaidTheWeb/GopherVM v0.0.0-20200618023918-cce3129aa835 h1:pBOzJfksDhj
 github.com/RaidTheWeb/GopherVM v0.0.0-20200618023918-cce3129aa835/go.mod h1:k7u115rDs6qzCNG7a4BxL5O3/h2nlpwl6TaT1mvp42A=
 github.com/RaidTheWeb/GopherVM v0.0.0-20200618041113-8c3a92438de4 h1:vonIrfWsDKX9zPM3Q9AGNwCavDInvTxAlnibwI8NNvI=
 github.com/RaidTheWeb/GopherVM v0.0.0-20200618053307-6ce763b02931 h1:dSOaZ9emqkXU2ufzTmkmiSNw1GKzIqtjzOqaWuY290E=
+github.com/cheekybits/genny v1.0.0 h1:uGGa4nei+j20rOSeDeP5Of12XVm7TGUd4dJA9RDitfE=
+github.com/cheekybits/genny v1.0.0/go.mod h1:+tQajlRqAUrPI7DOSpB0XAqZYtQakVtB7wXkRAgjxjQ=

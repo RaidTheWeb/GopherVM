@@ -1,0 +1,6 @@
+store #1 20
+store #2 10
+
+sub #3 #1 #2
+
+print_int #3

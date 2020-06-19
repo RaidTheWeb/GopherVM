@@ -1,0 +1,8 @@
+// Hello World in Gopher Assembly
+
+
+
+store #1 "Hello World"
+
+
+print_str #1
